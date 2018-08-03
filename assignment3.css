@@ -1,0 +1,66 @@
+/*
+Tristan Ladd
+ assignment3.css
+ INFO 1311
+ Colgan
+ 13 Dec. 2016
+*/
+
+/* ----------------------------------------------------------------------------------- */
+
+/* Body Elements */
+body {
+    background-color: #666666;
+    background-image: linear-gradient(#ffffff, #666666);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+/* Wrapper Id */
+#container {
+    width: 960px;
+    padding: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px #1e1e1e;
+    border: 15px;
+}
+/* Header Elements */
+header {
+    background-image: url(module3/background.jpg);
+    border: black;
+    border-radius: 15px;
+    
+}
+/* H1 Elements */
+h1 {
+    font-family: Impact, sans-serif;
+    font-size: 4em;
+    padding: 10px;
+    text-emphasis-color: hsla(0, 100%, 100%, .2);
+    text-shadow: gray;
+}
+/* H2 Elements */
+h2 {
+    text-emphasis-color: darkslategray;
+    margin-top: -20px;
+}
+/* .photo Class */
+.photo {
+    float: right;
+    
+}
+/* H3 Elements */
+h3 {
+    font-size: 102px;
+    background-color: aquamarine;
+}
+/* Footer Elements */
+footer {
+    background-color: aliceblue;
+    text-emphasis-color: navy;
+    text-align: right;
+    font-size: .8em;
+    font-style: italic;
+}
